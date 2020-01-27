@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
 import Logo from "./Cohu-Standard-Color-Logo-Transpaprent.png";
-import ReactDOM from "react-dom";
 
 function addDropdown() {
   return (
-    <select className="propDropdown">
+    <select class="propDropdown">
       <option>Material Name</option>
       <option>Date updated</option>
       <option>Vendor</option>
@@ -16,19 +15,23 @@ function addDropdown() {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a href="https://www.cohu.com/" target="_blank">
-          <img className="Header-logo" src={Logo} alt="image not found" />
+    <div class="App">
+      <header class="App-header">
+        <a
+          href="https://www.cohu.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img className="Header-logo" src={Logo} alt="not found" />
         </a>
-        <p className="Header-name">Cohu Materials Database</p>
+        <p class="Header-name">Cohu Materials Database</p>
       </header>
       <body>
-        <div className="choices">
+        <div class="choices">
           <div>{addDropdown()}</div>
           <button class="addButton">+</button>
         </div>
-        <div className="results"></div>
+        <div class="results"></div>
       </body>
     </div>
   );

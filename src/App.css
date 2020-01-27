@@ -1,24 +1,22 @@
 .App {
-  text-align: center;
   font-family: Corbel, corbel, sans-serif;
 }
 
 .Header-logo {
-  height: 5vmin;
+  width: 170px;
   border-right: 1px solid rgb(167, 169, 172);
 }
 
 .Header-name {
   font-weight: bold;
-  margin-left: 5%;
+  margin-left: 40px;
 }
 
 .App-header {
   background-color: white;
-  min-height: 8vh;
   display: flex;
   align-items: center;
-  font-size: calc(5px + 2vmin);
+  font-size: 22px;
   color: black;
   border-bottom: 3px solid rgb(167, 169, 172);
 }
@@ -29,12 +27,14 @@ body {
 
 .propDropdown {
   float: left;
-  margin: 1%;
+  margin: 20px;
+  height: 40px;
+  width: 120px;
   border-radius: 10px;
   background-color: rgb(100, 158, 201);
   border: 2px solid white;
   border-style: outset;
-  padding: 2vmin;
+  padding: 15px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   font-weight: bold;
@@ -42,15 +42,16 @@ body {
 
 .addButton {
   float: left;
-  margin: 1%;
+  margin: 20px;
+  height: 40px;
   border-radius: 10px;
-  width: 5%;
+  width: 40px;
   background-color: rgb(100, 158, 201);
   border: 2px solid white;
   border-style: outset;
-  padding: 2vmin;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  padding: 10px;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
   font-weight: bold;
 }
 
@@ -64,7 +65,5 @@ body {
 
 .choices {
   width: 100%;
-  display: block;
-  height: 13vmin;
   border-bottom: 5px double rgb(167, 169, 172);
 }
