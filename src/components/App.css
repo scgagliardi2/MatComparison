@@ -24,8 +24,3 @@
 body {
   background-color: rgb(0, 83, 161);
 }
-
-.choices {
-  width: 100%;
-  border-bottom: 5px double rgb(167, 169, 172);
-}

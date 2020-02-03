@@ -1,8 +1,8 @@
 import React from "react";
 import "./App.css";
 import Logo from "./Cohu-Standard-Color-Logo-Transpaprent.png";
-import Dropdown from "./Dropdown";
-import AddButton from "./AddButton";
+import ResultsDisplay from "./ResultsDisplay";
+import InputsDisplay from "./InputDisplay";
 
 function App() {
   return (
@@ -17,8 +17,11 @@ function App() {
         </a>
         <p className="Header-name">Cohu Materials Database</p>
       </header>
-      <Dropdown></Dropdown>
-      <AddButton></AddButton>
+      <body>
+        <InputsDisplay>
+        </InputsDisplay>
+        <ResultsDisplay></ResultsDisplay>
+      </body>
     </div>
   );
 }

@@ -1,0 +1,13 @@
+.queryInput {
+    float: left;
+    margin-top: 5px;
+    height: 10%;
+    width: 136px;
+    border-radius: 10px;
+    background-color: white;
+    border: 2px solid white;
+    border-style: inset;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
