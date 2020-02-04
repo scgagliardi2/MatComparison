@@ -1,0 +1,15 @@
+.matTable {
+  width: 95%;
+  margin: auto;
+  overflow: scroll; 
+  height: 95%; 
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,7 +1,6 @@
 import React from "react";
 import "./InputsDisplay.css";
 import Query from "./Query";
-import AddButton from "./AddButton";
 
 class InputsDisplay extends React.Component {
   state = {};
@@ -10,7 +9,10 @@ class InputsDisplay extends React.Component {
       <div className="inputDisplay">
         <Query></Query>
         <Query></Query>
-        <AddButton></AddButton>
+        <Query></Query>
+        <Query></Query>
+        <Query></Query>
+        <Query></Query>
       </div>
     );
   }
